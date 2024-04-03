@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+header {
+  background-color: #396c8d;
+  color: #ffff;
+  padding: 20px 0;
+}
+.content {
+  padding: 10px;
+}
+p {
+  font-size: 30px;
+  color: #333;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+}
